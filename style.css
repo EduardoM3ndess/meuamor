@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Sofadi+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 20px;
+}
+
+body {
+    background-color: #e5c0ff;
+    align-items: center;
+}
+
+.image {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url('img/01.jpeg');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    box-shadow: 0px 4px 60px rgba(242, 0, 153, 0.751);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:  #f9f9f9;
+}
+.texto{
+    height: 40%;
+    width: 100%;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.paragrafo{
+    font-size: 25px;
+    text-align: center;
+}
+.play{
+    height: 70px;
+    width: 70px;
+    color: black;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .titulo{
+        font-size: 1px;
+    }
+}
